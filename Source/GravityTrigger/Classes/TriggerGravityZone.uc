@@ -5,6 +5,7 @@
 // Usage:
 // Use a trigger to flip the gravity. 
 // Use a dispatcher to flip it, delay, and then flip it back.
+
 class TriggerGravityZone expands ZoneInfo;
 
 var() Vector InitialGravity;
