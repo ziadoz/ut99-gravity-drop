@@ -16,7 +16,7 @@ var bool bTriggered;
 function BeginPlay()
 {
 	ZoneGravity = InitialGravity; // Set the initial gravity.
-    Super.BeginPlay();
+	Super.BeginPlay();
 	bTriggered = False;
 }
 
